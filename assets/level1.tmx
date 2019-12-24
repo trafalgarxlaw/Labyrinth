@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="256" tileheight="256" nextobjectid="1">
+ <tileset firstgid="1" name="maze-tiles" tilewidth="256" tileheight="256" tilecount="16" columns="0">
+  <tile id="0">
+   <image width="256" height="256" source="maze-tile0000.png"/>
+  </tile>
+  <tile id="1">
+   <image width="256" height="256" source="maze-tile0001.png"/>
+  </tile>
+  <tile id="2">
+   <image width="256" height="256" source="maze-tile0010.png"/>
+  </tile>
+  <tile id="3">
+   <image width="256" height="256" source="maze-tile0011.png"/>
+  </tile>
+  <tile id="4">
+   <image width="256" height="256" source="maze-tile0100.png"/>
+  </tile>
+  <tile id="5">
+   <image width="256" height="256" source="maze-tile0101.png"/>
+  </tile>
+  <tile id="6">
+   <image width="256" height="256" source="maze-tile0110.png"/>
+  </tile>
+  <tile id="7">
+   <image width="256" height="256" source="maze-tile0111.png"/>
+  </tile>
+  <tile id="8">
+   <image width="256" height="256" source="maze-tile1000.png"/>
+  </tile>
+  <tile id="9">
+   <image width="256" height="256" source="maze-tile1001.png"/>
+  </tile>
+  <tile id="10">
+   <image width="256" height="256" source="maze-tile1010.png"/>
+  </tile>
+  <tile id="11">
+   <image width="256" height="256" source="maze-tile1011.png"/>
+  </tile>
+  <tile id="12">
+   <image width="256" height="256" source="maze-tile1100.png"/>
+  </tile>
+  <tile id="13">
+   <image width="256" height="256" source="maze-tile1101.png"/>
+  </tile>
+  <tile id="14">
+   <image width="256" height="256" source="maze-tile1110.png"/>
+  </tile>
+  <tile id="15">
+   <image width="256" height="256" source="maze-tile1111.png"/>
+  </tile>
+ </tileset>
+ <layer name="main-layer" width="10" height="8">
+  <data encoding="csv">
+8,5,13,15,7,5,6,6,13,15,
+15,11,3,2,9,4,6,14,11,11,
+11,11,11,8,2,6,6,13,12,11,
+11,12,11,15,8,5,6,1,6,9,
+11,15,12,3,13,12,15,11,8,9,
+3,10,15,11,12,7,2,9,15,12,
+11,8,9,11,7,10,8,9,4,13,
+4,6,2,2,10,8,6,2,6,10
+</data>
+ </layer>
+</map>
